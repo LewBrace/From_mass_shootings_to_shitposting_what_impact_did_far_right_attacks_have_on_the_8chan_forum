@@ -1,0 +1,15 @@
+This is the code that was used to scrape 8chan/pol data that was presented in
+Baele, S., Brace, L., and Coan, T. (2020) "From Mass Shootings to “Sh**posting”: 
+What Impact Did Far-right Attacks Have on the 8chan Forum?", which was 
+published in the journal of Behavioral Sciences of Terrorism and Political Aggression.
+
+There are two separate scraper files here, an 8chan scraper and an 8chan archived files
+scraper. This is due to the way in which the research team scraped the 8chan/pol on a daily
+basis, collecting both the text and image data from the board's posts. However, 8chan did archive
+text data (but not image data) from old posts. As such, the latter scraper was used to collect
+these archieved posts. 
+
+Both files are Python files (.py) and should be good to run, with the exception of having to install
+a couple of packages that you can see stated at the top of the scraper files.
+
+If you have any questions, please do not hesitate to contact l.brace@exeter.ac.uk.
